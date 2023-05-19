@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   
+    <title>TESNIC</title>
+
+    <style>
+        .header-logo
+        {
+            width:50px;
+            height:50px;
+
+            border:1px groove greenyellow;
+            border-radius: 50%;
+            margin:0px 20px;
+        }
+
+        .my-bgc
+        {
+            background-color: aqua;
+        }
+
+        .my-tc
+        {
+            color:navy;
+        }
+
+        .my-tc-2
+        {
+            color:gold;
+        }
+
+        .my-tc-3
+        {
+            color:lightcyan;
+            text-decoration: none;
+        }
+
+        .my-bg-image
+        {
+            background-image: url(../sitefiles/bg-1.jpg);
+            background-size: cover;
+            height:max-content;
+        }
+
+        .my-bg-img-2
+        {
+            background-image: url(../sitefiles/bg-2.jpg);
+            background-size:cover;
+
+            width:50px;
+            height:50px;
+        }
+
+        .my-height
+        {
+            height:fit-content;
+        }
+
+        .my-img-2
+        {
+            border-radius: 50%;
+            width:200px;
+            height:200px;
+        }
+
+        .my-box
+        {
+            box-shadow: 0 0 3px 8px white;
+        }
+
+        .my-wrap
+        {
+            display:flex;
+            flex-wrap:wrap;
+        }
+
+        .header-div-inside
+        {
+            display: flex;
+            justify-content:space-between;
+
+        }
+
+        .tesnic-card-image
+        {
+            width:200px;
+            height:200px;
+
+            border:2px ridge darkmagenta;
+            border-top-right-radius: 30px;
+            border-bottom:4px dotted greenyellow;
+            border-right: 4px solid greenyellow;
+            box-shadow:2px 2px 7px 3px orangered;
+        }
+
+        .section-div
+            {
+                width:auto;
+                height: fit-content;
+            }
+
+            .my-box-2
+            {
+                box-shadow:0px 0px 20px 3px navy;
+            }
+
+            .empty
+            {
+                border:2px ridge aqua;
+                background-color:black;
+                
+                
+            }
+
+            .hr-1
+            {
+                border:1px solid gold;
+                background-color: transparent;
+                width:50vw;
+                height:2px;
+                
+
+            }
+
+            .img-soc
+            {
+                width:50px;
+                height:50px;
+                margin:5px;
+            }
+
+            
+    </style>
+
+</head>
+<body class="bg-dark">
+    
+    <header>
+                    <!-- Navbar -->
+                    <nav class="navbar navbar-expand-lg navbar-light my-bgc">
+
+                        <img src="../sitefiles/tesnic-logo.jpg" class="header-logo">
+
+                        <a class="navbar-brand" href="#" > Tesnic </a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+
+                        
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto ml-auto">
+
+                            <li class="nav-item active">
+                              <a class="nav-link" href="../main-sources/about-dark.html" ><em class=" my-tc"> About </em><span class="sr-only">(current)</span></a>
+                            </li>
+
+                            <li class="nav-item">
+                              <a class="nav-link" href="../main-sources/works-by-tesnic-dark.html" > <em class="my-tc">Works by Tesnic</em></a>
+                            </li>
+                    
+                    
+                    <!--
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Feautured Projects
+                              </a>
+
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                              </div>
+                    --> 
+
+                              <li class="nav-item">
+                                <a class="nav-link" href="../main-sources/connect-with-me-dark.html"> <em class="my-tc">Connect with me</em></a>
+                              </li>
+                  <!--        </li>
+                            <li class="nav-item">
+                              <a class="nav-link disabled" href="#">Disabled</a>
+                            </li>
+                          </ul>
+                    
+                          
+                          <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                          </form>
+                        </div>
+                -->  
+            
+                    </nav>
+                    <!-- Navbar -->
+                  
+                    <!-- Jumbotron -->
+                    <div class="p-5 text-center bg-light my-bg-image my-height" style="margin-top: 58px;">
+                      <h1 class="mb-3 text-secondary display-4"><strong><em class="text-white">Tesnic</em> Welcomes You . . . <:> </strong></h1>
+                      <h4 class="mb-3 my-tc-2">Welcome to my domain</h4>
+
+
+
+                        <!--Card-->
+
+                    <div class="header-div-inside">
+
+                        <div class="card mb-3 my-box my-wrap" style="width: 18rem;">
+                            <img class="card-img-top my-img-2 mr-auto ml-auto mt-3" src="../sitefiles/me.jpg" alt="Image of Christo John ">
+                            <div class="card-body">
+                              <h5 class="card-title text-dark">Welcome to my domain</h5>
+                              <p class="card-text my-tc-3 text-muted">I am Christo John and Tesnic is my trade name. Am a BCA first year student and a developer since not so long ago. Decided to migrate all my works and contents under a single name and created Tesnic . . . That simple ! <:> In a way This space could be considered as my <strong class="my-tc"> portfolio</strong></p>
+
+                              <a href="../main-sources/christo-john-dark" class="btn btn-light btn-outline-danger">Got an Interest in me . . .</a>
+                            </div>
+                          </div>
+
+                          <div class="tesnic-card mt-auto mb-auto mr-5">
+
+                            <img class="tesnic-card-image" src="../sitefiles/tesnic-logo.jpg" >
+
+                          </div>
+
+
+
+                    </div>
+
+
+                <!--Card-->
+            
+                <!--
+                      <a class="btn btn-primary" href="" role="button">Call to action</a>
+                    </div>
+                -->
+                
+
+                    <!-- Jumbotron -->
+                  </header>
+
+
+
+
+                  <section>
+
+
+                <div class="empty p-1 m-2">
+                
+                    <hr class="hr-1 ml-auto mr-auto">
+
+                </div>
+
+
+                    <div class="container-fluid">
+                        <div class="row">
+
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12  col-xl-12 my-bg-img-2 section-div d-flex flex-row flex-wrap justify-content-around p-5">
+
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 p-4">
+                                <a  href="../main-sources/all-projects-dark.html">
+                                    <div class="card my-box-2 bg-secondary" style="width: 18rem;">
+                                        <img class="card-img-top" src="../sitefiles/bg-3.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <p class="card-text my-tc-3">Top Projects</p>
+                                        </div>
+                                      </div>
+                                </a>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 p-4">
+                                 <a  href="../main-sources/works-by-tesnic-dark.html">
+                                    <div class="card my-box-2 bg-secondary" style="width: 18rem;">
+                                        <img class="card-img-top" src="../sitefiles/bg-3.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <p class="card-text my-tc-3">My Works</p>
+                                    </div>
+                                </a>
+                                        
+
+                                      </div>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 p-4">
+                                <a  href="../main-sources/connect-with-me-dark.html">
+                                    <div class="card my-box-2 bg-secondary" style="width: 18rem;">
+                                        <img class="card-img-top" src="../sitefiles/bg-3.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <p class="card-text my-tc-3">Find me . . .</p>
+                                        </div>
+                                      </div>
+                                </a>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 p-4">
+                                <a class="my-link" href="../main-sources/my-skills-dark.html">
+                                    <div class="card my-box-2 bg-secondary" style="width: 18rem;">
+                                        <img class="card-img-top" src="../sitefiles/bg-3.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <p class="card-text my-tc-3">Skills</p>
+                                        </div>
+                                      </div>
+                                </a>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                  </section>
+
+                  <footer class="bg-dark text-center text-white">
+                    <!-- Grid container -->
+                    <div class="container p-4 pb-0">
+                      <!-- Section: Social media -->
+                      <section class="mb-4">
+
+                        <h3 class="display-6 text-info">Connect with me :</h3>
+                        <!-- Facebook -->
+                        <a href="https://bit.ly/chrisatfb">
+                             <img class="img-soc" src="../sitefiles/fb-1.jpg">
+                        </a>
+
+                        
+                        <!-- Instagram -->
+                        <a href="https://bit.ly/tesatinsta">
+                             <img class="img-soc" src="../sitefiles/insta-1.jpg">
+                        </a>
+
+                        <!-- GitHub -->
+                        <a  href="https://bit.ly/chrisatgithub">
+                             <img class="img-soc" src="../sitefiles/github-1.jpg">
+                        </a>
+                  
+                        <!-- Linkedin -->
+                        <a href="https://bit.ly/chrisatlinkedin">
+                            <img class="img-soc" src="../sitefiles/linkedin-1.jpg">
+                       </a>
+                  
+                      </section>
+                      <!-- Section: Social media -->
+                    </div>
+                    <!-- Grid container -->
+                  
+                    <!-- Copyright -->
+                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                      © 2023 Copyright:<br>
+                      <a class="text-white" href="https://bit.ly/tesatinsta"><strong class="text-info text-medium">Tesnic</a></strong>   
+                        <em class="text-muted"> <-> Christo John <-> </em>
+
+                        <br><em class="blockquote text-lightgi">If you wanna see a change , then you must start it yourself ; Don't wait for someone else to start it , coz there is no guarentee that there will ever comes that someone . . .</em>
+                        <br> <em class="blockquote-footer"> Who knows whom . . .</em>
+
+                        <br><p  class="lead">See ya all sooon . . .</p>
+
+                        <a href="../main-sources/credits-dark.html">
+                            <button class="btn button-danger text-success">Credits</button>
+                        </a>
+                    </div>
+                    <!-- Copyright -->
+                  </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
